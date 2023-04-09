@@ -1,5 +1,5 @@
 from flask import render_template, request, jsonify
-from app import flask_app
+from project.src.app import flask_app
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
